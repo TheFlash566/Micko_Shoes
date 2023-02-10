@@ -1,38 +1,262 @@
-.App {
-  text-align: center;
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-control-next {
+	right: -85px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-control-prev {
+	left: -85px !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.carousel-caption {
+	bottom: 10rem !important;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-indicators{
+	padding-bottom: 6rem !important;
+	margin-right: 16% !important;
+	margin-bottom: 0rem !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.carousel-indicators [data-bs-target] {
+	margin-right: 10px !important;
 }
+
+.row-cols-md-2>* {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.g-4, .gy-4 {
+	--bs-gutter-y: 0rem !important;
+}
+
+.g-4, .gx-4 {
+	--bs-gutter-x: 0rem !important;
+}
+
+@media (min-width: 576px) {
+	.card-group {
+		display: block !important;
+	}
+}
+
+.grid-image {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+}
+
+.gd-b1 {
+	background-image: url(../public/images/img28.JPG);
+	background-size: cover;
+	background-position: center;
+}
+
+.gd-b2 {
+	background-image: url(../public/images/img16.JPG);
+	background-size: cover;
+	background-position: center;
+}
+
+.gd-b4 {
+	background-image: url(../public/images/IMG-7075.JPG);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.gd-b3 {
+	background-image: url(../public/images/img42.JPG);
+	background-size: contain;
+	background-position: center;
+}
+
+.card {
+	--bs-card-border-width: 0px !important; 
+    --bs-card-border-color: transperant !important; 
+    --bs-card-border-radius: 0rem !important;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	display: none !important;
+}
+
+.carousel-indicators {
+	display: none !important;
+}
+
+.newsletter {
+	border: white;
+    width: 80%;
+    height: 40px;
+	text-indent: 15px;
+}
+
+
+.newsletter:focus {
+	outline-color: rgb(57 219 57);
+}
+
+.footer-links {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+.abt-title {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+    font-size: 60px;
+}
+
+.abt-title::before {
+	content: 'Your best fashion plug...';
+	position: absolute;
+    z-index: -1;
+    top: 80px;
+    left: 580px;
+    font-size: 18px;
+	color: lime;
+}
+
+.vision-img {
+	background-image: url(../public/images/vision.jpg);
+	width: 50%;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.about {
+	padding-top: 3em;
+    padding-bottom: 3em;
+	background: rgb(20 66 56);
+	color: white;
+}
+
+.approach-img {
+	width: 50%;
+	background-size: cover;
+	background-image: url(../public/images/business-plan.jpg);
+}
+
+.process-img {
+	width: 50%;
+	background-size: cover;
+	background-image: url(../public/images/approach1.jpg);
+	background-position: center;
+}
+
+.form {
+	display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+    gap: 1.5em;
+    height: auto;
+}
+
+.ct-button {
+	width: 16%;
+    padding: 10px 20px;
+    font-size: 20px;
+	font-weight: bold;
+	background-color: lime;
+}
+
+#message {
+	text-indent: 15px;
+    padding-top: 10px;
+}
+
+.contact-bg {
+	background-size: cover;
+	padding-top: 5em;
+    padding-bottom: 5em;
+	background: #000000f2;
+}
+
+.contact {
+	padding: 3em 0em;
+    background: transparent;
+    width: 70%;
+    margin: auto;
+	border: 2px solid lime;
+	border-radius: 50px;
+}
+
+.green-link {
+	color: white;
+	text-decoration: none;
+	background: #1e071e; 
+	padding: 10px 14px;
+}
+
+.green-link:hover {
+	color: lime;
+	background: black;
+	transition: 2s ease-in-out;
+}
+
+.linker {
+	color: white; 
+	text-decoration: none;
+	background: rgb(19, 187, 19); 
+	padding: 10px 14px;
+}
+
+.linker:hover {
+	background: rgb(95 141 6);
+	transition: 2s ease-in-out;
+	color: white;
+}
+
+.navLink {
+	text-decoration: none; 
+	color: white;
+}
+
+.navLink:hover {
+	color: lime;
+}
+
+.shop-nav {
+	display: flex;
+    width: 91%;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+.sn-link {
+	color: white;
+    text-decoration: none;
+    margin-right: 2.5em;
+}
+
+.searcher {
+	width: 300px;
+    border-radius: 22px;
+    text-indent: 20px;
+    margin-right: 3em;
+}
+
+.arrow-left {
+	margin-right: 25px;
+    color: white;
+}
+
+.arrow-right {
+	margin-left: 25px;
+    color: white;
+}
+
+
+
+
+
+	
+
