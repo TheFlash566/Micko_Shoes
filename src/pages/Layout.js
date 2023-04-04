@@ -1,10 +1,16 @@
 import { Outlet, Link } from "react-router-dom";
+import { Button } from "react-bootstrap"
 
-function Layout() {
+import { useShoppingCart } from "../context/ShoppingCartContext"
+
+export function Layout() {
+  const { openCart, cartQuantity } = useShoppingCart()
+
   return (
     <>
       <nav style={{
-    background: 'black',}}>
+    background: 'black', position: 'sticky',
+    top: 0, zIndex: 1020}}>
         <ul style={{listStyleType: 'none', display: 'flex',
     gap: '3em', fontSize: '20px',
     width: '90%', margin: 'auto', textTransform: 'uppercase', padding: '12px 0px'}}>
@@ -19,13 +25,35 @@ function Layout() {
             <Link className="navLink" to="/contact">Contact</Link>
           </li>
           <li style={{marginTop: '10px'}}>
-            <Link className="navLink" to="/shop">Shop</Link>
+            <Link className="navLink" to="/store">Shop</Link>
           </li>
           <li style={{marginTop: '10px'}}>
             <Link className="navLink" to="/team">Team</Link>
           </li>
           <li style={{marginTop: '10px'}}>
-            <Link className="navLink" to="/cart"><i class="fas fa-cart-arrow-down"></i></Link>
+          {cartQuantity > 0 && (
+                    <Button 
+                        onClick={openCart}
+                        style={{width: "3rem", height: "3rem", position: "relative"}}
+                        variant="outline-primary" className="rounded-circle"
+                    >
+                        <i className="fa-solid fa-cart-arrow-down"></i>
+                    
+                        <div className="rounded-circle bg-danger d-flex justify-content-center align-items-center" 
+                        style={{
+                            color: "white", 
+                            width: "1.5rem", 
+                            height: "1.5rem", 
+                            position: "absolute", 
+                            bottom: 0, 
+                            right: 0,
+                            transform: "translate(25%, 25%)",
+                            }}
+                            >
+                                {cartQuantity}
+                            </div>
+                    </Button>
+                )}
           </li>
         </ul>
       </nav>

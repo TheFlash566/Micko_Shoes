@@ -3,10 +3,11 @@ function ShopNav() {
         <div className="shop-nav">
             <div style={{fontSize: '1.4em'}}>
                 <a className="sn-link" href="#">Featured</a>
-                <a className="sn-link"  href="">Men</a>
                 <a className="sn-link"  href="">Women</a>
+                <a className="sn-link"  href="">Men</a>
+                <a className="sn-link"  href="#">Kids</a>
             </div>
-            <input className="searcher" type="text" placeholder="Search your favorite shoes" />
+            <input className="searcher" type="text" placeholder="Search your favorite shoes...." />
             <div style={{fontSize: '1.4em'}}>
                 <a className="sn-link"  href="#">Kids</a>
                 <a className="sn-link"  href="">Others</a>
@@ -25,5 +26,3 @@ function ShopNav() {
 export default ShopNav
 
 
-{/* <i class="fa-solid fa-arrow-left"></i>
-<i class="fa-solid fa-arrow-right"></i> */}

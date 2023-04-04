@@ -1,0 +1,106 @@
+
+[
+    {
+        "id": 0,
+        "brand": "Versace",
+        "price": 400,
+        "imgUrl": "/images/item1.JPG"
+
+    },
+
+    {
+        "id": 1,
+        "brand": "Luis Vuiton",
+        "price": 500,
+        "imgUrl": "/images/item2.JPG"
+    },
+
+    {
+        "id": 2,
+        "brand": "Gucci",
+        "price": 600,
+        "imgUrl": "/images/item3.JPG"
+    },
+
+    {
+        "id": 3,
+        "brand": "Addidas",
+        "price": 700,
+        "imgUrl": "/images/item4.JPG"
+    },
+
+    {
+        "id": 4,
+        "brand": "Balenciaga",
+        "price": 800,
+        "imgUrl": "/images/item5.JPG"
+    },
+
+    {
+        "id": 5,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item6.JPG"
+    },
+    {
+        "id": 6,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item7.JPG"
+    },
+    {
+        "id": 7,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item8.JPG"
+    },
+    {
+        "id": 8,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item9.JPG"
+    },
+    {
+        "id": 9,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item10.JPG"
+    },
+    {
+        "id": 10,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item11.JPG"
+    },
+    {
+        "id": 11,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item12.JPG"
+    },
+    {
+        "id": 12,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item13.JPG"
+    },
+    {
+        "id": 13,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item14.JPG"
+    },
+    {
+        "id": 14,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item15.JPG"
+    },
+    {
+        "id": 15,
+        "brand": "Balenciaga",
+        "price": 900,
+        "imgUrl": "/images/item16.JPG"
+    }
+
+]
