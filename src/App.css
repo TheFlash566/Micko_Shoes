@@ -226,7 +226,7 @@
 
 .shop-nav {
 	display: flex;
-    width: 91%;
+    width: 88%;
     margin: auto;
     padding-bottom: 2em;
 }
@@ -234,14 +234,16 @@
 .sn-link {
 	color: white;
     text-decoration: none;
-    margin-right: 2.5em;
+    margin-right: 2.4em;
 }
 
 .searcher {
-	width: 300px;
+	width: 312px;
     border-radius: 22px;
     text-indent: 20px;
     margin-right: 3em;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
 .arrow-left {
@@ -253,6 +255,22 @@
 	margin-left: 25px;
     color: white;
 }
+
+.add-btn {
+	background: purple !important;
+    border: none !important;
+}
+
+.plus {
+	background: purple !important;
+    border: none !important;
+}
+
+.minus {
+	background: purple !important;
+    border: none !important;
+}
+
 
 
 
