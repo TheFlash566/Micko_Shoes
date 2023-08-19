@@ -9,11 +9,11 @@ export function Layout() {
   return (
     <>
       <nav style={{
-    background: 'black', position: 'sticky',
-    top: 0, zIndex: 1020}}>
-        <ul style={{listStyleType: 'none', display: 'flex',
-    gap: '3em', fontSize: '20px',
-    width: '90%', margin: 'auto', textTransform: 'uppercase', padding: '12px 0px'}}>
+        background: 'black', position: 'sticky',
+        top: 0, zIndex: 1020}}>
+      <ul style={{listStyleType: 'none', display: 'flex',
+        gap: '3em', fontSize: '20px',
+         width: '90%', margin: 'auto', textTransform: 'uppercase', padding: '12px 0px'}}>
       <Link to="/"><img src="/images/mk-shoes-png1-1.png" style={{width: '220px', height: '50px', marginRight: '12em'}} alt="LOGO" /></Link>
           <li style={{marginTop: '10px'}}>
             <Link className="navLink" to="/">Home</Link>
